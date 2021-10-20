@@ -1,0 +1,11 @@
+In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+
+HTML
+
+ <form>
+        <fieldset id= "group1">
+            <input type="radio" value="salaried" id="Salaried" name="salary type"> <label for="salaried" >Salaried</label>
+            <input type="radio" value="own-business" id="Own-business" name="salary type" ><label for="own-business">Own-business</label>   
+
+</fieldset>
+</form>

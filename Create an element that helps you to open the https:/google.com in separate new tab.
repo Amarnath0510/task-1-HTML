@@ -1,0 +1,4 @@
+Create an element that helps you to open the https://google.com in separate new tab.
+
+HTML CODE
+   <a href="https://www.google.com" target=" _blank" >Google</a>

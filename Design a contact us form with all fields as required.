@@ -1,0 +1,76 @@
+Design a contact us form with all fields as required.
+
+HTML
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assignment.css">
+        <title>Contact us Page</title>
+    </head>
+    <body>
+      <div class="contact-field">
+<form>
+    <input type="text " class="input-field" placeholder="Your name">
+
+    <input type="text " class="input-field" placeholder="Your Email">
+
+    <input type="text " class="input-field" placeholder="Subject">
+    <textarea type="text " class="input-field" placeholder="Feel free to  contact "></textarea>
+    <button type="button" class="click">Click to contact </button>
+</form>
+
+      </div>  
+    </body>
+    </html>
+    ---------------------------------
+    CSS
+    .contact-field{
+ width:400px; 
+ background-color: aqua;
+ hieght:500px; 
+ margin-top:10px;
+ margin-left: 320px;
+ 
+}
+body{
+    background-image: linear-gradient(
+        to right top, #ea178f, #da4ab2, #c568cd, #ad81df, #9794e7, #84a4f1, #73b2f7, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    font-family: sans-serif;
+    top:0%;
+    bottom:0%;
+    position:absolute;
+    margin-bottom: 200px ;
+    background-color:hotpink;
+}
+form{
+    margin:35px;
+}
+.input-field{
+    width:250px;
+    height: 40px;
+    margin-top:20px;
+    padding-left:0px;
+    padding-right: 10px;
+    border: 1px solid crimson;
+    border-radius: 14px;
+    outline:none;
+    text-align: center;
+}
+.textarea-field{
+    hieght:150px;
+    padding-left: 10px;
+}
+.click{
+    border-radius: 20px;
+    color:white;
+    margin-top:18px;
+padding:10px;
+background-color: green;
+font-size: 12px;
+
+}
